@@ -2,11 +2,11 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Oleh Savchuk  
-  given: Oleh  
+  display: Dr. Oleh Savchuk
+  given: Oleh
   family: Savchuk
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 postnominals:
   - PhD
@@ -14,9 +14,7 @@ status:
   icon: "☕️"
 role: Postdoctoral Scholar
 bio: |
-  Oleh Savchuk is a postdoctoral researchel at IRL NPA/Facility for Rare Isotope Beams. His research focuses on 
-  dynamics of dense nuclear matter created in heavy-ion collisions and neutron star mergers. Stastical inference
-  of data from colliders and gravitational waves in order to constrain strongly interacting matter properties.
+  Oleh Savchuk is a postdoctoral researcher at IRL NPA/Facility for Rare Isotope Beams. His research focuses on the dynamics of dense nuclear matter created in heavy-ion collisions and neutron star mergers, using statistical inference of data from colliders and gravitational waves to constrain strongly interacting matter properties.
 affiliations:
   - name: IRL NPA/FRIB
     url: https://frib.msu.edu
@@ -32,9 +30,81 @@ links:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=pEXcS4EAAAAJ&hl=uk
 
-
 interests:
   - Theoretical Physics
+  - Statistics and Probability Theory
+  - Machine Learning and Artificial Intelligence
+  - Robotics
+
+education:
+  - degree: PhD Physics and Astronomy
+    institution: Bogolyubov Institute for Theoretical Physics
+    start: 2021-11-01
+    end: 2024-09-06
+    summary: |
+      Thesis on fluctuations and correlations in strongly interacting matter
+    button:
+      text: Download dissertation
+      url: /thesis.pdf
+      icon: hero/arrow-down-tray
+  - degree: MS Theoretical Physics
+    institution: Carnegie Mellon University
+    start: 2018-09-01
+    end: 2020-05-31
+  - degree: BS Theoretical Physics
+    institution: MIT
+    start: 2014-09-01
+    end: 2018-05-31
+
+experience:
+  - role: Postdoctoral Researcher
+    org: IRL-NPA/Facility for Rare Isotope Beams
+    start: 2024-11-01
+    summary: |
+      Equation of state of strongly interacting matter and statistical formation of light nuclei
+    button:
+      text: View portfolio
+      url: /
+      icon: hero/arrow-down-tray
+  - role: Visiting Scholar
+    org: Facility for Rare Isotope Beams
+    start: 2022-11-01
+    end: 2024-11-01
+    summary: |
+      Studied statistical properties of strongly interacting matter and performed femtoscopic analysis of fluctuations and correlations with the aim to constrain vorticity at low collision energies.
+
+skills:
+  - name: Technical Skills
+    items:
+      - label: Python
+        level: 5
+      - label: Machine Learning
+        level: 5
+      - label: Cloud Computing
+        level: 4
+  - name: Research & Communication
+    items:
+      - label: Academic Writing
+        level: 5
+      - label: Conference Presentations
+        level: 4
+      - label: Grant Proposals
+        level: 4
+
+languages:
+  - name: English
+    level: 4
+    label: Fluent
+  - name: Ukrainian
+    level: 5
+    label: Native
+
+awards:
+  - title: IRTAP-Ukraine
+    awarder: American Physical Society
+    date: "2023-12-01"
+    summary: Awarded to facilitate travel and collaboration with Lawrence Berkeley National Laboratory
+    icon: hero/trophy  - Theoretical Physics
   - Statistics and Probability theory
   - Machine Learning and Artificial Intelligence
   - Robotics
