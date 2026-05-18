@@ -2,7 +2,7 @@
 # Leave the homepage title empty to use the site title
 title: ''
 summary: ''
-date: 2026-5-18
+date: 2026-05-18
 type: landing
 
 sections:
@@ -33,8 +33,9 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+
   - block: markdown
-content:
+    content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
@@ -43,6 +44,7 @@ content:
         If you wish to collaborate, please feel free to reach out to me.
     design:
       columns: '1'
+
   - block: collection
     id: papers
     content:
@@ -54,6 +56,7 @@ content:
     design:
       view: article-grid
       columns: 2
+
   - block: collection
     content:
       title: Recent Publications
@@ -64,6 +67,7 @@ content:
         exclude_featured: false
     design:
       view: citation
+
   - block: collection
     id: talks
     content:
@@ -73,6 +77,7 @@ content:
           - events
     design:
       view: card
+
   - block: collection
     id: news
     content:
@@ -102,6 +107,7 @@ content:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+
   - block: cta-card
     demo: false # Only display this section in the HugoBlox Kit demo site
     content:
